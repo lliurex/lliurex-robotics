@@ -2,8 +2,8 @@ Source: lliurex-robotics
 Section: utils
 Priority: optional
 Maintainer: Equipo LliureX <lliurex@gva.es>
-Build-Depends: cdbs, debhelper (>= 7.3)
-Standards-Version: 3.8.5
+Build-Depends: cdbs, debhelper (>=10)
+Standards-Version: 4.1.2
 
 
 Package: lliurex-robotics
