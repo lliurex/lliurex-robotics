@@ -1,1 +1,11 @@
-KERNEL=="ttyUSB[0-9]*",MODE="0666"
+# Adds Picaxe usb ftdi product id to ftdi driver
+SUBSYSTEM=="usb", ATTR{idVendor}=="0403", ATTR{idProduct}=="bd90", RUN+="/sbin/modprobe ftdi_sio", RUN+="/bin/sh -c 'echo 0403 bd90 > /sys/bus/usb-serial/drivers/ftdi_sio/new_id'"
+
+# Old arduino models
+KERNEL=="ttyUSB[0-9]*", MODE="0666"
+
+# Arduino
+KERNEL=="ttyACM[0-9]*", MODE="0666"
+
+#Lego RCX
+KERNEL=="legousbtower[0-9]*", MODE="0666"
