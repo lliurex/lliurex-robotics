@@ -1,3 +1,13 @@
+lliurex-robotics (0.2.0.0) bionic; urgency=medium
+
+  * Master tag: 10a70521bfac8d7462ce7b8606c2a1c585ff4da0
+  * Added ttyUSB and ttyACM for arduinos
+  * Added workarround for picaxe
+  * Added rcx support
+  * Added nxt support
+
+ -- Enrique Medina Gremaldos <quiqueiii@gmail.com>  Wed, 11 Dec 2019 13:58:49 +0100
+
 lliurex-robotics (0.14) bionic; urgency=medium
 
   * Initial release for bionic
