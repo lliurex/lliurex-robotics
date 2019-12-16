@@ -1,3 +1,9 @@
+lliurex-robotics (1.0.0.0) bionic; urgency=medium
+
+  * Fixed package version
+
+ -- Enrique Medina Gremaldos <quiqueiii@gmail.com>  Mon, 16 Dec 2019 16:11:07 +0100
+
 lliurex-robotics (0.2.0.0) bionic; urgency=medium
 
   * Master tag: 10a70521bfac8d7462ce7b8606c2a1c585ff4da0
