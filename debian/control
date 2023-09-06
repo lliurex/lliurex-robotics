@@ -1,0 +1,15 @@
+Source: lliurex-robotics
+Section: utils
+Priority: optional
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Build-Depends: cdbs, debhelper (>=10)
+Standards-Version: 4.1.2
+
+
+Package: lliurex-robotics
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends} 
+Description: Udev rules to permit all users total access to some devices
+ Some of devices need administrator privileges to upload/download data to
+ some kind of robots and technological artifacts. This package makes this 
+ easy 

@@ -1,0 +1,39 @@
+lliurex-robotics (1.0.0.1) focal; urgency=medium
+
+  * First focal release
+
+ -- Juanma1980 <juanma1980@gmail.com>  Tue, 01 Jun 2021 12:37:33 +0200
+
+lliurex-robotics (1.0.0.0) bionic; urgency=medium
+
+  * Fixed package version
+
+ -- Enrique Medina Gremaldos <quiqueiii@gmail.com>  Mon, 16 Dec 2019 16:11:07 +0100
+
+lliurex-robotics (0.2.0.0) bionic; urgency=medium
+
+  * Master tag: 10a70521bfac8d7462ce7b8606c2a1c585ff4da0
+  * Added ttyUSB and ttyACM for arduinos
+  * Added workarround for picaxe
+  * Added rcx support
+  * Added nxt support
+
+ -- Enrique Medina Gremaldos <quiqueiii@gmail.com>  Wed, 11 Dec 2019 13:58:49 +0100
+
+lliurex-robotics (0.14) bionic; urgency=medium
+
+  * Initial release for bionic
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 05 Oct 2018 13:53:59 +0200
+
+lliurex-robotics (0.4) xenial; urgency=medium
+
+  * First release to xenial
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Mon, 08 Feb 2016 13:10:58 +0100
+
+lliurex-robotics (0.1) trusty; urgency=high
+
+  * Initial release.
+
+ -- Angel Berlanas Vicente <angel.berlanas@gmail.com>  Mon, 23 Mar 2015 09:01:00 +0100
