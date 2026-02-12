@@ -1,3 +1,9 @@
+lliurex-robotics (1.1.0.0) noble; urgency=medium
+
+  * Added udev rule for Microbit board
+
+ -- Enrique Medina Gremaldos <quique@necos.es>  Thu, 12 Feb 2026 10:08:46 +0100
+
 lliurex-robotics (1.0.0.21) noble; urgency=medium
 
   * Initial release for noble
