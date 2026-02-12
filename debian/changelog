@@ -1,3 +1,9 @@
+lliurex-robotics (1.1.0.0) jammy; urgency=medium
+
+  * Added a rule for Microbit boards
+
+ -- Enrique Medina Gremaldos <quique@necos.es>  Thu, 12 Feb 2026 10:06:21 +0100
+
 lliurex-robotics (1.0.0.11) jammy; urgency=medium
 
   * Initial release for Jammy
