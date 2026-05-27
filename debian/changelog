@@ -1,3 +1,9 @@
+lliurex-robotics (1.1.0.1) jammy; urgency=medium
+
+  * Adding new rules ti Edison v3, to retroarcade machine and modify microbit without group.
+
+ -- Daniel Duran <daduve@gmail.com>  Wed, 27 May 2026 19:37:13 +0200
+
 lliurex-robotics (1.1.0.0) jammy; urgency=medium
 
   * Added a rule for Microbit boards
