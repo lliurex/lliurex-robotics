@@ -1,6 +1,9 @@
 # Adds Picaxe usb ftdi product id to ftdi driver
 SUBSYSTEM=="usb", ATTR{idVendor}=="0403", ATTR{idProduct}=="bd90", RUN+="/sbin/modprobe ftdi_sio", RUN+="/bin/sh -c 'echo 0403 bd90 > /sys/bus/usb-serial/drivers/ftdi_sio/new_id'"
 
+#You can recharge the new rules with the devices connected & program running with this instruction
+#sudo udevadm control --reload-rules && sudo udevadm trigger
+
 # Old arduino models
 KERNEL=="ttyUSB*", MODE="0666"
 
@@ -17,4 +20,12 @@ SUBSYSTEM=="usb", ATTRS{idVendor}=="0694", ATTRS{idProduct}=="0002", SYMLINK+="l
 SUBSYSTEM=="usb", ATTRS{idVendor}=="03eb", ATTRS{idProduct}=="6124", SYMLINK+="legonxt-%k", MODE="0666"
 
 # Microbit
-SUBSYSTEM=="usb", ATTR{idVendor}=="0d28", MODE="0664", GROUP="plugdev"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0d28", MODE="0666"
+
+# Edison V3
+SUBSYSTEM=="usb", ATTR{idVendor}=="16d0", ATTRS{idProduct}=="1207",MODE="0666"
+
+# Retroarcade
+SUBSYSTEM=="usb", ATTR{idVendor}=="0483", ATTRS{idProduct}=="5799",MODE="0666"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0483", ATTRS{idProduct}=="1043",MODE="0666"
+SUBSYSTEM=="usb", ATTR{idVendor}=="26ac", ATTRS{idProduct}=="1043",MODE="0666"
