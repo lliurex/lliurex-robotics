@@ -1,3 +1,9 @@
+lliurex-robotics (1.1.1.0) noble; urgency=medium
+
+  * Add flags for webbluetooth in chromium
+
+ -- Juanma1980 <juanma1980@gmail.com>  Mon, 15 Jun 2026 09:49:07 +0200
+
 lliurex-robotics (1.1.0.0) noble; urgency=medium
 
   * Added udev rule for Microbit board
